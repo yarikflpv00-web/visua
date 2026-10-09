@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "donatil-visuals",
+  "version": "${version}",
+  "name": "Donatil Visuals",
+  "description": "Render-only visual client: buff timers, WASD keystrokes, FPS HUD. Zero extra packets - zero bans.",
+  "authors": ["donatil"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["gg.donatil.visuals.DonatilVisuals"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": ">=1.21 <1.22",
+    "java": ">=21"
+  }
+}
